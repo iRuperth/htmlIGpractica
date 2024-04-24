@@ -1,0 +1,116 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} /*cuerpo completo */
+
+
+.post{
+    width: 500px;
+    height: 620px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    align-items: center;
+    overflow: hidden;
+} /* marco completo del post */
+
+.postHeader{
+    background-color: white;
+    border: 10px;
+    height: 70px;
+    width: 500px;
+    display: flex;
+    margin-top: 8px;
+} /* Div blanco */
+
+#htmlLogo{
+    height: 60px;
+    width: 80px;
+
+} /* html logo*/
+
+.userName {
+    height: 70px;
+    width: 70px;
+    margin-top: 14px;
+} /* nombres de usuarios */
+
+.dots {
+    float: left;
+    height: 14px;
+    width: 14px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: 3%;
+} /* puntos arriba a la derecha */
+
+/*  Pasamos a la imagen principal  */
+
+.mainImg {
+    width: 500px;
+    height: 300px;
+}
+#imgCat{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Pasamos a los iconos */ 
+.postIcons{
+    background-color: white ;
+    height: 50px;
+    width: 500px;
+    background-size: cover;
+    background-position: center center;
+}
+
+#heart, #comment, #paperMsg{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#bookMark{
+    height: 38px;
+    width: 38px;
+    margin-left: 2px;
+    margin-right: 8px;
+    float: right;
+    margin-top: 10px;
+}
+
+/* Pasamos al texto  */ 
+
+.postText{
+    background-color: white ;
+    height: 40px;
+    width: 480px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+#text{
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.mainText{
+    background-color: white;
+    width: 480px;
+    height: 800px;
+    margin-bottom: 0px;
+}
+
+
+#paragraph{
+    text-align: justify;
+}
+/* texto principal */ 
+
